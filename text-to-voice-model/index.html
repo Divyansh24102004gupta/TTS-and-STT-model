@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Speech Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Trigger Button -->
+  <button id="openModalBtn">Open Text-to-Speech Modal</button>
+
+  <!-- Modal Structure -->
+  <div id="textToSpeechModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Enter Text to Speak</h2>
+      <textarea id="textInput" placeholder="Type text here..."></textarea>
+      <button id="speakTextBtn">Speak Text</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
